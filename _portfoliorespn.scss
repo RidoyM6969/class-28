@@ -1,0 +1,40 @@
+@media (max-width: 575px) {
+  #portfolio_section {
+    padding: 50px 0 150px 0;
+    .prot_header_text {
+      h2 {
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 700;
+      }
+      p {
+        padding: 25px 0;
+        font-size: 12px;
+        text-transform: uppercase;
+      }
+      ul {
+        li {
+          display: inline;
+          padding: 0 20px;
+          overflow: hidden;
+          a {
+            font-size: 16px;
+            padding: 5px 5px;
+            text-transform: uppercase;
+            color: orange;
+            border-radius: 5px;
+            &:hover {
+              color: black;
+            }
+          }
+        }
+      }
+      .tab-content {
+        img {
+          width: 350px;
+          padding-top: 40px;
+        }
+      }
+    }
+  }
+}
